@@ -1,30 +1,19 @@
-# vue-routing
+# Penjelasan
 
-## Project setup
-```
-npm install
-```
+ini adalah project `vue-routing` simple dimana kita bisa berpindah pindah halaman vue tanpa berpindah halaman.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Files
 
-### Compiles and minifies for production
-```
-npm run build
-```
+ada 4 file komponen dalam project ini, yang pertama adalah `'kelas', 'siswa', 'formkelas', 'formsiswa'`
+# Cara kerja
+disini digunakan router-link di setiap link yang akan diarahkan ke komponen tertentu. Misalnya , ingin membuat link 'tempat' yang akan berarah ke formtempat, maka masukan router-link di bagian link tempat. dan jangan lupa juga untuk memasukan routes nya di file index.js.
 
-### Run your tests
-```
-npm run test
-```
+## Cara penginstalan
 
-### Lints and fixes files
-```
-npm run lint
-```
+ - silahkan clone/download project ini
+ - pindahkan ke tempat di mana saja yang kamu inginkan
+ - silahkan masuk ke dalam directory nya di cmd
+ - lalu ketikan npm run serve
+ - selesai
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-"# vue-simple-routing" 
+
